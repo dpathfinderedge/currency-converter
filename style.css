@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-aroun;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.form-container {
+    background-color: #5f5959;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+#fromName, #toName {
+    background-color: #2a99a1;
+    color: #ffffff;
+    height: 20px;
+    font-size: 18px;
+}
+
+#errMessage {
+    background-color: #d32929;
+    font-size: 18px;
+    color: #ffffff;
+    display: none;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #2a99a1;
+    padding: 8px;
+}
+
+.currency-selector {
+    color: white;
+    background-color: #2a99a1;
+    font-size: 24px;
+    border: 0;
+    outline: none;
+}
+
+.value-input {
+    width: 100%;
+    font-size: 24px;
+    padding: 4px;
+    outline: none;
+    border: 1px solid #b7d5d4;
+    background-color: #b7d5d4;
+}
+
+#swapBtn {
+    text-align: center;
+    padding: 8px 10px;
+    background-color: #2a99a1;
+    color: #ffffff;
+    font-size: 20px;
+    outline: none;
+    border-color:  #5f5959;
+    cursor: pointer;
+}
+
+#swapBtn:hover {
+    background-color: #23b9c4;
+}
+
+#swapBtn:active {
+    background-color: #5f5959;
+}
